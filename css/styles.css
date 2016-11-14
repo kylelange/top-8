@@ -21,12 +21,17 @@ h3,h4 {
   margin: 10px 10px 5px 10px;
 }
 
-
+.flexed {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 .friend-tile {
+  flex: 1 0 20%;
   color: blue;
   text-align: center;
-  display: inline-block;
+  /*display: inline-block;*/
   margin-left: 35px;
   margin-right: 10px;
 }

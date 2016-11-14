@@ -17,15 +17,40 @@ h3,h4 {
 /*Class Selectors********************/
 .title {
   background-color: #FFCE99;
-  padding: 10px 0px 10px 10px;
+  padding: 1px 0px 10px 10px;
   margin: 10px 10px 5px 10px;
 }
 
- .footer {
-   color: red;
-   float: right;
-   margin-right: 10px;
- }
+
+
+.friend-tile {
+  color: blue;
+  text-align: center;
+  display: inline-block;
+  margin-left: 35px;
+  margin-right: 10px;
+}
+
+.image-tile {
+  height: 200px;
+  width: 200px;
+  border: 2px solid blue;
+  object-fit: cover;
+}
+
+.online-gif {
+  object-fit: contain;
+  width: 120px;
+  height: 50px;
+  margin-top: -5px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  color: red;
+  float: right;
+  margin-right: 10px;
+}
 
 
 /*Id Selectors***********************/

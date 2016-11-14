@@ -1,13 +1,41 @@
+*,
+*::before,
+*::after {
+  webkit-box-sizing: border-box;
+  moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /*Universal Selectors****************/
 
-
+h3,h4 {
+  font-family: "Verdana", verdana, sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
 
 /*Class Selectors********************/
+.title {
+  background-color: #FFCE99;
+  padding: 10px 0px 10px 10px;
+  margin: 10px 10px 5px 10px;
+}
 
+ .footer {
+   color: red;
+   float: right;
+   margin-right: 10px;
+ }
 
 
 /*Id Selectors***********************/
+ #title-text {
+   color: #D3693D;
+ }
 
+#subtitle {
+  padding-left: 20px;
+}
 
 
 /*Media Queries**********************/
